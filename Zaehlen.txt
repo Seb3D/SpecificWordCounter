@@ -1,0 +1,1 @@
+﻿Die Datei Zaehlen.txt können Sie beliebig verändern (also den Inhalt nicht den Dateinamen (es sei denn, Sie ändern auch etwas am Quellcode)).
