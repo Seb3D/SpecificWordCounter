@@ -1,4 +1,4 @@
-/*Version V0.1.a
+/*Version V0.2.a
  * @author Sebastian "Seb3D" Lein
 */
 
@@ -6,15 +6,14 @@ package pack1;
 
 import java.nio.file.Paths;
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 public class SpecificWordCounter {
 
 	public static void main(String[] args) throws Exception {
 		
-		System.out.println("Welches Wort moechtest du zaehlen?");
-		Scanner worteingabe = new Scanner(System.in);
-		
-		String x = worteingabe.next();
+		String x = JOptionPane.showInputDialog("Geben Sie das zu zaehlende Wort ein: ");
+				
 		x = x.toLowerCase();
 		
 		String file = "D:\\Java\\Programme\\Bootcamp\\Zaehlen.txt";
@@ -35,7 +34,7 @@ public class SpecificWordCounter {
 			
 		}
 		
-		System.out.println( "Das Wort: " + x + " kommt " + countWort + " Mal vor.");
+		JOptionPane.showMessageDialog(null, "Das Wort: " + x + " kommt " + countWort + " Mal vor.");
 		
 	}
 
