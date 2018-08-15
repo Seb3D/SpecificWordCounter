@@ -1,4 +1,4 @@
-/*Version V0.2.a
+/*Version V0.3.1a
  * @author Sebastian "Seb3D" Lein
 */
 
@@ -12,11 +12,14 @@ public class SpecificWordCounter {
 
 	public static void main(String[] args) throws Exception {
 		
+		
+		String finput = JOptionPane.showInputDialog("Dateipfad mit 2 '\\' angeben (e. g. C:\\Java\\Bsp.txt)");
+		
 		String x = JOptionPane.showInputDialog("Geben Sie das zu zaehlende Wort ein: ");
 				
 		x = x.toLowerCase();
 		
-		String file = "D:\\Java\\Programme\\Bootcamp\\Zaehlen.txt";
+		String file = finput;
 
 		Scanner input = new Scanner(Paths.get(file));
 		
