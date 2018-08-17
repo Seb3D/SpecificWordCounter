@@ -1,8 +1,8 @@
-/*Version V0.3.1a
+/*Version V0.3.2a
  * @author Sebastian "Seb3D" Lein
 */
 
-package pack1;
+package de.realseb3d.pack1;
 
 import java.nio.file.Paths;
 import java.util.Scanner;
