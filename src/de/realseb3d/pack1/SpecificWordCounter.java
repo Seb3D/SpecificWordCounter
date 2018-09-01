@@ -1,4 +1,4 @@
-/*Version V0.3.2a
+/*Version V0.3.3
  * @author Sebastian "Seb3D" Lein
 */
 
@@ -38,6 +38,8 @@ public class SpecificWordCounter {
 		}
 		
 		JOptionPane.showMessageDialog(null, "Das Wort: " + x + " kommt " + countWort + " Mal vor.");
+		
+		input.close();
 		
 	}
 
